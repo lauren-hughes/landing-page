@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    min-height: 100vh;
 }
 
 button {
@@ -26,12 +27,30 @@ button {
     width: 125px;
 }
 
-.header {
+.content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer {
+    color: #E5E7EB;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
+    height: 100px;
+}
+
+.footer, .header {
     align-items: center;
     background-color: #1F2937;
     display: flex;
+    padding: 0px 200px;
+}
+
+.header {
     justify-content: space-between;
-    padding: 15px 200px;
+    height: 75px;
 }
 
 .hero-main {
@@ -70,6 +89,7 @@ p {
     align-items: center;
     background-color: #1F2937;
     display: flex;
+    flex: 1;
     flex-direction: row;
     gap: 40px;
     padding: 15px 200px;
