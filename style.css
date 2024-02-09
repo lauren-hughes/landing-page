@@ -111,17 +111,6 @@ ul {
     font-weight: 900;
 }
 
-.square {
-    border-radius: 10px;
-    height: 175px;
-    width: auto;
-}
-
-#city {
-    height: 250px;
-    width: auto;
-}
-
 .secondary {
     color: #E5E7EB;
     font-size: 18px;
@@ -141,6 +130,13 @@ ul {
 .subtext {
     color: #89909C;
     font-size: 18px;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 175px;
+    width: auto;
 }
 
 #one, #four {
@@ -168,4 +164,9 @@ ul {
 
 #three {
     background-color: #E5E7EB;
+}
+
+#city {
+    height: 250px;
+    width: auto;
 }
